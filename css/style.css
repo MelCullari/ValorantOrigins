@@ -1,0 +1,1042 @@
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.titulo{
+    background-color:rgb(233, 69, 69);
+    width: 300px;
+    color: white;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 90px;
+    position: relative;
+    left: 60px;
+}
+
+    
+.titulo2{
+    background-color:rgb(233, 69, 69);
+    width: 350px;
+    color: white;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 90px;
+    position: relative;
+    left: 35px;
+}
+
+.grid_header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 200px;
+    grid-template-areas: 
+    "grid_a" 
+    "grid_b";
+}
+
+.grid_a{
+    grid-area: "grid_a";
+    background-color:#0F1822;
+}
+
+.grid_b{
+    grid-area: "grid_b";
+    background-image: url(../img/portada.png);
+    background-size: cover;
+}
+
+header section nav ul{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+header section nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 10px 10px;
+}
+
+header section nav ul li a{
+    text-decoration: none;
+    color:rgb(233, 69, 69);
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid_a{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    "grid_logo" "grid_menu";
+}
+
+.tarjetas__titulo{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.grid_cards, .grid_cards2, .grid_cards3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "card1" 
+    "card2" 
+    "card3" 
+    "card4";
+    margin-left: 70px;
+}
+
+.card1{
+    grid-area: "card1";
+}
+
+.card2{
+    grid-area: "card2";
+}
+
+.card3{
+    grid-area: "card3";
+}
+
+.card4{
+    grid-area: "card4";
+}
+
+
+.grid_cards4{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "card1" 
+    "card2" 
+    "card3" 
+    "card4";
+    margin-left: 65px;
+}
+
+.card1{
+    grid-area: "card1";
+}
+
+.card2{
+    grid-area: "card2";
+}
+
+.card3{
+    grid-area: "card3";
+}
+
+.card4{
+    grid-area: "card4";
+}
+
+.productos{
+    font-size: 25px;
+}
+
+.card-title {
+    color: black; 
+}
+
+.card-text {
+    color: black; 
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-footer {
+    display: grid;
+    align-items: center;
+    padding: 2%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "redes" 
+    "copyright"
+    "conta";
+    background-image: linear-gradient(to top, #0F1822, rgb(233, 69, 69));
+    height: 200px; 
+}
+
+.redes {
+    grid-area: redes;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+
+}
+
+.copy {
+    grid-area: copyright;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    color: white;
+}
+
+
+.conta {
+    grid-area: conta;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    color: white;
+}
+
+.icono{
+    margin: 2px;
+}
+
+.subtitulo{
+    background-color:#0F1822;
+    width: 300px;
+    color: white;
+    margin-top: 60px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+h3{
+    margin: 22px;
+    font-size: 22px;
+}
+
+.grid_roles{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "centinela" 
+    "duelista" 
+    "controlador"
+    "iniciador";
+    margin: 50px;
+    padding-left: 68px;
+
+}
+
+.centinela{
+    width: 180px;
+    height: 180px;
+    grid-area: "centinela";
+    margin-bottom: 20px;
+}
+
+.duelista{
+    width: 180px;
+    height: 180px;
+    grid-area: "duelista";
+    margin-bottom: 20px;
+}
+
+.controlador{
+    width: 180px;
+    height: 180px;
+    grid-area: "controldor";
+    margin-bottom: 20px;
+}
+
+.iniciador{
+    width: 180px;
+    height: 180px;
+    grid-area: "iniciador";
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+    
+
+.armas{
+    background-image: url(../img/armas.webp);
+    background-size: cover;
+    transition: 1s;
+    width: 400px;
+    height: 190px;
+    margin-left: 2.5%;
+}
+
+.armas:hover{
+    background-image: url(../img/skins.webp);
+    background-size: cover;
+    transform: scale(1.1)
+}
+
+.mapas{
+    width: 400px;
+    height: 190px;
+    margin-left: 2.5%;
+
+}
+
+.spike{
+    background-image: url(../img/spike.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 190px;
+    margin-left: 2.5%;
+}
+
+.imagen_uno{
+    
+    background-image: url(../img/imagen_uno.webp);
+    background-size: cover;
+    width: 1fr;
+    height: 200px;
+}
+
+.imagen_dos{
+    
+    background-image: url(../img/imagen_dos.jpg_large);
+    background-size: cover;
+    width: 1fr;
+    height: 200px;
+
+}
+
+.imagen_tres{
+    
+    background-image: url(../img/imagen_tres.jpg_large);
+    background-size: cover;
+    width: 1fr;
+    height: 200px;
+}
+
+.grid_video{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "video" 
+    "video2"
+    "video3";
+    margin: 35px;
+
+} 
+
+.video{
+    width: 350px;
+    height: 170px;
+    margin-bottom: 15px;
+}
+
+.video2{
+    width: 350px;
+    height: 170px;
+    margin-bottom: 15px;
+}
+
+.video3{
+    width: 350px;
+    height: 170px;
+    margin-bottom: 15px;
+}
+
+
+@media (width >= 768px){
+
+        
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .titulo{
+        background-color:rgb(233, 69, 69);
+        width: 500px;
+        color: white;
+        font-size: 60px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-top: 190px;
+        position: relative;
+        left: 130px;
+    }
+
+    .titulo2{
+        background-color:rgb(233, 69, 69);
+        width: 600px;
+        color: white;
+        font-size: 55px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-top: 200px;
+        position: relative;
+        left: 80px;
+    }
+
+    .grid_header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 500px;
+        grid-template-areas: 
+        "grid_a" 
+        "grid_b";
+    }
+
+    .grid_a{
+        grid-area: "grid_a";
+        background-color:#0F1822;
+    }
+
+    .grid_b{
+        grid-area: "grid_b";
+        background-image: url(../img/portada.png);
+        background-size: cover;
+    }
+
+    header section nav ul{
+        position: relative;
+        display: flex;
+        justify-content: right;
+        margin-right: 30px;
+    }
+
+    header section nav ul li{
+        list-style: none;
+        display: inline;
+        margin: 30px 30px;
+    }
+
+    header section nav ul li a{
+        text-decoration: none;
+        color:rgb(233, 69, 69);
+        font-size: 30px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .grid_a{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 100px;
+        grid-template-areas: 
+        "grid_logo" "grid_menu";
+    }
+
+    .tarjetas__titulo{
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .productos{
+        font-size: 40px;
+    }
+
+    .card-title {
+        color: black; 
+    }
+
+    .card-text {
+        color: black; 
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        margin: 20px; 
+    }
+
+    .grid_cards, .grid_cards2, .grid_cards3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "card1" "card2" 
+        "card3" "card4";
+        margin-left: 65px;
+    }
+
+    .card1{
+        grid-area: "card1";
+    }
+
+    .card2{
+        grid-area: "card2";
+    }
+
+    .card3{
+        grid-area: "card3";
+    }
+
+    .card4{
+        grid-area: "card4";
+    }
+
+    .grid_cards4{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "card1" "card2" 
+        "card3" "card4";
+        margin-left: 60px;
+    }
+
+    .card1{
+        grid-area: "card1";
+    }
+
+    .card2{
+        grid-area: "card2";
+    }
+
+    .card3{
+        grid-area: "card3";
+    }
+
+    .card4{
+        grid-area: "card4";
+    }
+
+    .grid-footer {
+        display: grid;
+        align-items: center;
+        padding: 2%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "redes" 
+        "copyright"
+        "conta";
+        background-image: linear-gradient(to top, #0F1822, rgb(233, 69, 69));
+        height: 200px; 
+    }
+
+    .redes {
+        grid-area: redes;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: white;
+    }
+
+    .copy {
+        grid-area: copyright;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        color: white;
+    }
+
+
+    .conta {
+        grid-area: conta;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        color: white;
+    }
+
+    .icono{
+        margin: 2px;
+    }
+
+    .subtitulo{
+        background-color:#0F1822;
+        width: 600px;
+        color: white;
+        margin-top: 100px;
+        padding-left: 50px;
+        font-size: 45px;
+    }
+
+    p{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 23px;
+    }
+
+    h3{
+        margin: 40px;
+        font-size: 29px;
+    }
+
+    .grid_roles{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "centinela" 
+        "duelista" 
+        "controlador"
+        "iniciador";
+        margin: 50px;
+        padding-left: 210px;  
+    }
+    
+    .centinela{
+        width: 250px;
+        height: 250px;
+        grid-area: "centinela";
+        margin-bottom: 20px;
+    }
+    
+    .duelista{
+        width: 250px;
+        height: 250px;
+        grid-area: "duelista";
+        margin-bottom: 20px;
+    }
+    
+    .controlador{
+        width: 250px;
+        height: 250px;
+        grid-area: "controldor";
+        margin-bottom: 20px;
+    }
+    
+    .iniciador{
+        width: 250px;
+        height: 250px;
+        grid-area: "iniciador";
+    }
+
+    .rol{
+        color: black;
+    }
+
+    .frame {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+        
+
+    .armas{
+        background-image: url(../img/armas.webp);
+        background-size: cover;
+        transition: 1s;
+        width: 650px;
+        height: 420px;
+        margin-left: 8%;
+    }
+
+    .armas:hover{
+        background-image: url(../img/skins.webp);
+        background-size: cover;
+        transform: scale(1.1)
+    }
+
+    .mapas{
+        width: 650px;
+        height: 420px;
+        margin-left: 8%;
+
+    }
+
+    .spike{
+        background-image: url(../img/spike.jpg);
+        background-size: cover;
+        width: 700px;
+        height: 400px;
+        margin-left: 4%;
+    }
+
+    .imagen_uno{
+        
+        background-image: url(../img/imagen_uno.webp);
+        background-size: cover;
+        width: 1fr;
+        height: 400px;
+        margin: 50px 0px 50px 0px;
+    }
+
+    .imagen_dos{
+        
+        background-image: url(../img/imagen_dos.jpg_large);
+        background-size: cover;
+        width: 1fr;
+        height: 400px;
+        margin: 50px 0px 50px 0px;
+    }
+
+    .imagen_tres{
+        
+        background-image: url(../img/imagen_tres.jpg_large);
+        background-size: cover;
+        width: 1fr;
+        height: 400px;
+        margin: 50px 0px 50px 0px;
+    }
+
+    .grid_video{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "video" 
+        "video2"
+        "video3";
+        margin: 35px;
+        padding-left: 7%;
+    
+    } 
+    
+    .video{
+        width: 600px;
+        height: 320px;
+        margin-bottom: 15px;
+    }
+    
+    .video2{
+        width: 600px;
+        height: 320px;
+        margin-bottom: 15px;
+    }
+    
+    .video3{
+        width: 600px;
+        height: 320px;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (width >= 1024px){
+
+        
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .titulo{
+        background-color:rgb(233, 69, 69);
+        width: 700px;
+        color: white;
+        font-size: 90px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-top: 190px;
+        position: relative;
+        left: 30%;
+    }
+
+    .titulo2{
+        background-color:rgb(233, 69, 69);
+        width: 1000px;
+        color: white;
+        font-size: 90px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-top: 190px;
+        position: relative;
+        left: 25%;
+    }
+
+    .grid_header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 500px;
+        grid-template-areas: 
+        "grid_a" 
+        "grid_b";
+    }
+
+    .grid_a{
+        grid-area: "grid_a";
+        background-color:#0F1822;
+    }
+
+    .grid_b{
+        grid-area: "grid_b";
+        background-image: url(../img/portada.png);
+        background-size: cover;
+    }
+
+    header section nav ul{
+        position: relative;
+        display: flex;
+        justify-content: right;
+        margin-right: 30px;
+    }
+
+    header section nav ul li{
+        list-style: none;
+        display: inline;
+        margin: 30px 30px;
+    }
+
+    header section nav ul li a{
+        text-decoration: none;
+        color:rgb(233, 69, 69);
+        font-size: 30px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .grid_a{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 100px;
+        grid-template-areas: 
+        "grid_logo" "grid_menu";
+    }
+
+    .tarjetas__titulo{
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .grid_cards, .grid_cards2, .grid_cards3{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "card1" "card2" "card3" "card4";
+        margin-left: 95px;
+    }
+
+    .card1{
+        grid-area: "card1";
+    }
+
+    .card2{
+        grid-area: "card2";
+    }
+
+    .card3{
+        grid-area: "card3";
+    }
+
+    .card4{
+        grid-area: "card4";
+    }
+
+
+    .grid_cards4{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "card1" "card2" "card3" "card4";
+        margin-left: 35px;
+    }
+
+
+    .productos{
+        font-size: 40px;
+    }
+
+    .card-title {
+        color: black; 
+    }
+
+    .card-text {
+        color: black; 
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        margin: 20px; 
+    }
+
+    .grid-footer {
+        display: grid;
+        align-items: center;
+        padding: 2%;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 2fr;
+        grid-template-areas: "redes copyright conta";
+        background-image: linear-gradient(to top, #0F1822, rgb(233, 69, 69));
+        height: 150px; 
+    }
+
+    .redes {
+        grid-area: redes;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: white;
+    }
+
+    .copy {
+        grid-area: copyright;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        color: white;
+    }
+
+
+    .conta {
+        grid-area: conta;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        color: white;
+    }
+
+    .icono{
+        margin: 2px;
+    }
+
+    .subtitulo{
+        background-color:#0F1822;
+        width: 700px;
+        color: white;
+        margin-top: 100px;
+        padding-left: 50px;
+        font-size: 55px;
+    }
+
+    p{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 25px;
+    }
+
+    h3{
+        margin: 40px;
+        font-size: 29px;
+    }
+
+    .grid_roles{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 2fr;
+        grid-template-areas: "centinela duelista controlador iniciador";
+        margin: 100px;
+        padding-left: 50px;
+    }
+
+    .centinela{
+        width: 250px;
+        height: 250px;
+        grid-area: "centinela";
+    }
+
+    .duelista{
+        width: 250px;
+        height: 250px;
+        grid-area: "duelista";
+    }
+
+    .controlador{
+        width: 250px;
+        height: 250px;
+        grid-area: "controldor";
+    }
+
+    .iniciador{
+        width: 250px;
+        height: 250px;
+        grid-area: "iniciador"
+    }
+
+    .rol{
+        color: black;
+    }
+
+    .frame {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+        
+
+    .armas{
+        background-image: url(../img/armas.webp);
+        background-size: cover;
+        transition: 1s;
+        width: 900px;
+        height: 570px;
+        margin-left: 25%;
+    }
+
+    .armas:hover{
+        background-image: url(../img/skins.webp);
+        background-size: cover;
+        transform: scale(1.1)
+    }
+
+    .mapas{
+        width: 900px;
+        height: 570px;
+        margin-left: 25%;
+
+    }
+
+    .spike{
+        background-image: url(../img/spike.jpg);
+        background-size: cover;
+        width: 900px;
+        height: 500px;
+        margin-left: 25%;
+    }
+
+    .imagen_uno{
+        
+        background-image: url(../img/imagen_uno.webp);
+        background-size: cover;
+        width: 1fr;
+        height: 400px;
+        margin: 150px 0px 150px 0px;
+    }
+
+    .imagen_dos{
+        
+        background-image: url(../img/imagen_dos.jpg_large);
+        background-size: cover;
+        width: 1fr;
+        height: 400px;
+        margin: 150px 0px 150px 0px;
+    }
+
+    .imagen_tres{
+        
+        background-image: url(../img/imagen_tres.jpg_large);
+        background-size: cover;
+        width: 1fr;
+        height: 400px;
+        margin: 150px 0px 150px 0px;
+    }
+
+    .grid_video{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: "video video2 video3";
+        margin: 50px;
+
+    } 
+
+    .video{
+        width: 600px;
+        height: 300px;
+    }
+
+    .video2{
+        width: 600px;
+        height: 300px;
+    }
+
+    .video3{
+        width: 600px;
+        height: 300px;
+    }
+
+}
